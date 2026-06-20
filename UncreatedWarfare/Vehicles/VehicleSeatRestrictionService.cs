@@ -23,7 +23,7 @@ public class VehicleSeatRestrictionService :
     IEventListener<ExitVehicleRequested>
 {
 
-    public const float MaxAllowedHeightToExitVehicle = 10;
+    public const float MaxAllowedHeightToExitVehicle = 30;
 
     private readonly ChatService _chatService;
     private readonly VehicleTweaksTranslations _translations;
